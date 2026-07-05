@@ -1,0 +1,17 @@
+
+5V to 3.3V Converter Chip selection Guide
+
+
+Requirement	                                recommended chip
+
+current <500mA,Simple project	               AMS1117-3.3(LDO)
+
+
+Battery powered, efficiency matters	       TPS62A02(Buck)
+
+
+High current (ESP32,Motors)	               MP2307/LM2596(BUCK)
+
+
+Ultra low power (IOT Sensor)	               MCP1700(LDO)
+
