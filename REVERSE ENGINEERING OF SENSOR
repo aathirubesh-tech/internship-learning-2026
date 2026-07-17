@@ -1,0 +1,46 @@
+# Touch Sensor Module Reverse Engineering
+
+## Overview
+
+This repository contains the reverse engineering of a **Touch Sensor Module (TTP223)**. The objective of this project is to understand the module's hardware design by analyzing the PCB, identifying the components, and recreating the schematic in KiCad.
+
+## Objectives
+
+* Analyze the Touch Sensor Module PCB.
+* Identify the major electronic components.
+* Recreate the schematic in KiCad.
+* Understand the working principle of capacitive touch sensing.
+* Improve PCB analysis and hardware reverse engineering skills.
+
+## What I Learned
+
+* Capacitive touch sensing fundamentals.
+* TTP223 touch sensor IC pin connections.
+* PCB trace analysis.
+* Schematic capture using KiCad.
+* Component identification and verification.
+
+## Tools Used
+
+* KiCad
+* Digital Multimeter (for continuity testing, if required)
+* Datasheet
+* Magnifier/PCB inspection
+
+## Repository Structure
+
+```
+📁 Touch-Sensor-Reverse-Engineering
+│── Schematic/
+│── PCB/
+│── Images/
+│── Datasheet/
+└── README.md
+```
+
+## Future Improvements
+
+* PCB layout recreation.
+* Functional verification of the recreated schematic.
+* Comparison with the original module.
+* Detailed circuit explanation.
